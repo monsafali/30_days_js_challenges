@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+  <style>
+    img {
+        height: 200px;
+        width: 200px;
+    }
+  </style>
+</head>
+<body>
+
+    <p>Add a click event listener to a buttan that changes the text content of a paragraph. 
+    </p>
+    <div>
+        <p id="para">Lorem ipsum dolor t. Animi, adipisci!</p>
+        <button onclick="changed()">Change content</button>
+    </div>
+    
+    <p>Add a doule-click event listener to an imgate that toggles is visibility</p>
+    <img  class="myButton" id="myImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF8dKRU8P3rjiU1eMhjmEal-kmB6zlcvYENRHLCvxlO5junAwIVrL178XTXWI5sYIbJvM&usqp=CAU">
+
+    <p>Add a mouseover event listener to an element that changes its background color</p>
+    <p>Add a mouseout event listener to an element that reset its background color</p>
+    <div id="background" style="width: 200px; height: 200px; border: 1px solid black;"></div>
+
+    <p>Add a keydown event listener to an input field that logs the key pressed to the console</p>
+    <p>Add  keyup event listener to an input field that displays the curent value in  a paragraph</p>
+
+    <input type="text" placeholder="press any key">
+    <p id="log"></p>
+
+    <p>Add a sumbit event listener to a form that prevents the default submission and logs the form data to the console.</p>
+    
+    <form action="/action">
+      <input type="text" name="" id="" placeholder="Enter your name">
+      <input type="password" placeholder="Enter your password">
+      <button>submit</button>
+    </form>
+
+    
+    <p>Add a Change event lisnter to a select dropdown that display the selected value in  a paragraph</p>
+
+    <select onchange="selectone()" id="selectdropdown">
+      <option value="one">Pakistan</option>
+      <option value="two">Indian</option>
+      <option value="three">Bangla</option>
+      <option value="four">Afghan</option>
+    </select>
+    <p id="selectedValue"></p>
+
+
+    <p>Add click event listener to a list that logs the text content of the clicked list item using even delegation</p>
+
+    <ul id="listitem">
+      <li>kamal</li>
+      <li>awesome</li>
+      <li>super</li>
+      <li>good</li>
+    </ul>
+
+
+    <p>add an event listener to a paretn element that listen for events from dynamically added child elements</p>
+    <div id="parentElement">
+      <!-- Initially, there are no buttons here -->
+  </div>
+  <button id="addButton">Add Button</button>
+    <script src="app.js"></script>
+</body>
+</html>
