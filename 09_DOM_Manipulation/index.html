@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .delete-btn {
+            margin-left: 10px;
+            color: red;
+            cursor: pointer;
+        }
+        .highlight {
+            background-color: yellow;
+            color: red;
+            font-weight: bold;
+        }
+        .box {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        text-align: center;
+        line-height: 200px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <h2 id="game">Welcome to a big game</h2>
+    <h3 class="chngback">Select and HTML element by its class and change its bacgroudn color</h3>
+
+    <ul class="ul">
+        <li>abc</li>
+        <li>xyz</li>
+    </ul>
+    <input type="text" placeholder="Enter new li" id="inputli">
+    <button onclick="addli()"> add new li</button>
+
+    <!-- Q6 -->
+     <br>
+    <button id="removeButton">Remove Last Child</button>
+    <br>
+<h4>Select an HTML element and change one of its attributes (e,g, src of an img tag).</h4>
+<img id="myImage" src="https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0" 
+alt="Dog img" width="200">
+<button id="changeSrcButton">Change Image Source</button>
+<h4>Question 8</h4>
+<p id="myParagraph">This is a paragraph.</p>
+<button id="addClassButton">Add Highlight Class</button>
+<button id="removeClassButton">Remove Highlight Class</button>
+
+<h4>Question 9</h4>
+<div class="container">
+    <p id="myParagraph2">This is a paragraph.</p>
+    <button id="changeTextButton">Change Text</button>
+</div>
+
+<h4>Question 10</h4>
+<div class="box" id="myBox">Hover over me</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
