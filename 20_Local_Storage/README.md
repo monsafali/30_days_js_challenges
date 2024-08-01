@@ -1,0 +1,19 @@
+Q1:Write a script to save a string value to locatStorage adn retrive it. Log the retrieved value.
+
+Q2:Write a script to save an object to locatStorage by converting it to a Json string. Retrieve and parse the object, then log it
+
+Q3:create a simpel form that saves user input (e.g., name and email) to locatStorage when submitted. Retrieve adn display the saved data on page load
+
+Q4: Write a script to remove an item from locatStorage. Log the locatStorage content before and after removal
+
+Q5: Write a script to save a string value to sessionStorage adn retrieve it. Log the retrieved value
+
+Q6: write a script to save an object to sessionStorage by converting it to a Json string. Retrive and parse the object, then log it
+
+Q7:Create a simpe form that saves user inpt (e.g. name and email ) to sessionStorage when submitted. Retrieve adn dipslay the saved data
+
+Q8: write a script to remove an item from sessionStorage. log the sessionStorage content before adn after removal
+
+Q9:write a function that accept a key and a value, and saves the value to both locatStorage adn sessionStorage retrieve and log the values from both storage mechanisms
+
+Q10: write a function that clears all data from both locatStorage and sessionStorage verify that both storages re empty.
