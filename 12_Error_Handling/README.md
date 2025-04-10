@@ -6,7 +6,7 @@ Q3: Write a script that includes a try-catch block and a finally bloc. Log messa
 
 Q4: Create a custom error class that extends the built-in Error class. Throw an instance of this custom error in a funciton and handle it using a try catch block
 
-Q5: Write a funciton that validates user input (e,g., checking if a string is not empty) and thros a custom error if the validation fails. Hanlde the custom error using a try-catch block
+Q5: Write a funciton that validates user input (e,g., checking if a string is not empty) and throw a custom error if the validation fails. Hanlde the custom error using a try-catch block
 
 Q6: Create a promise that randomly resolves or rejects. Use .catch() to handle the rejection and log an appropriate message to the console
 
